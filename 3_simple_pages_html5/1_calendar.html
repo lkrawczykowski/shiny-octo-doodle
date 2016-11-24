@@ -1,27 +1,42 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE HTML>
 <html>
 
 <head>
-	<title>November calendar</title>
+    <title>November calendar</title>
+    <style>
+        .calendar-table {
+            border-collapse: collapse;
+        }
+
+        .weekdays {
+            background-color: #c2c0db;
+        }
+
+        td {
+            background-color: #e8e1e4;
+            padding: 10px;
+            margin: 5px;
+        }
+    </style>
 </head>
 
 <body>
-    <table border="0" cellpadding="10" cellspacing="5">
+    <table class="calendar-table">
         <thead>
-            <tr bgcolor="#c2c0db">
+            <tr class="weekdays">
                 <td>Monday</td>
                 <td>Tuesday</td>
                 <td>Wednesday</td>
                 <td>Thursday</td>
                 <td>Friday</td>
-                <td bgcolor="#b178c9">Saturday</td>
-                <td bgcolor="#b178c9">Sunday</td>
+                <td>Saturday</td>
+                <td>Sunday</td>
             </tr>
         </thead>
-        <tbody bgcolor="#e8e1e4">
+        <tbody>
             <tr>
-                <td bgcolor="#c0cadb">30</td>
-                <td bgcolor="#c0cadb">31</td>
+                <td>30</td>
+                <td>31</td>
                 <td>1</td>
                 <td>2</td>
                 <td>3</td>
@@ -60,13 +75,12 @@
                 <td>28</td>
                 <td>29</td>
                 <td>30</td>
-                <td bgcolor="#c0cadb">1</td>
-                <td bgcolor="#c0cadb">2</td>
-                <td bgcolor="#c0cadb">3</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
             </tr>
         </tbody>
     </table>
 </body>
-
 
 </html>

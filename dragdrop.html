@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exercise</title>
+    <style>
+        body {
+            margin: 0px;
+            background-color: rgb(247, 240, 238);
+            font-family: "Note"
+        }
+    </style>
+    <script>
+        function onDrag(e) {
+            e.transferData.setData("test1", e.target.id);
+        }
+    </script>
+</head>
+
+<body>
+    <div id="menubar">
+        <span>MENUBAR</span>
+        <div id="circle"></div>
+    </div>
+    <span class="span-class">
+            SPAN1
+        </span>
+    <span class="span-class">
+        SPAN2
+        </span>
+    <div class="div-class">
+        DIV1
+    </div>
+    <div class="div-class">
+        DIV2
+    </div>
+</body>
+
+</html>
